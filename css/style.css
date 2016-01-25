@@ -33,7 +33,7 @@ div[class*="column"] {
 body {
 	margin: 0 auto;
 	width: 1600px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .container {
 	margin: 0 auto;
@@ -42,6 +42,136 @@ body {
 a {
 	text-decoration: none;
 }
-
+ul li {
+	list-style-type: none;
+	display: inline-block;
+}
 .up {
 	text-transform: uppercase;
+}
+.heading {
+	font-size: 28px;
+	color: #0eb493;
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	position: relative;
+}
+.heading:after {
+	content: "";
+	background-image: url(../image/heart.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	position: absolute;
+	width: 229px;
+	height: 14px;
+	top: 155px;
+	left: 470px;
+}
+.subheader {
+	height: 700px;
+	background-image: url(../image/sub-header-fon.jpg);
+}
+.features {
+	height: 460px;
+	background-image: url(../image/features-fon.png);
+}
+.features h4 {
+	font-size: 20px;
+	color: #062033;
+	padding-bottom: 30px;
+	margin-left: -40px;
+}
+.features p {
+	font-size: 13px;
+	font-weight: normal;
+	color: #062033;
+	position: relative;
+	margin-left: -40px;
+}
+.features p:before {
+	content: "";
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+}
+.features-text-brand:before {
+	background-image: url(../image/features-item1.png);
+	position: absolute;
+	left: -55px;
+	top: -55px;
+}
+.features-text-dev:before {
+	background-image: url(../image/features-item2.png);
+	position: absolute;
+	left: -55px;
+	top: -55px;
+}
+.features-text-cons:before {
+	background-image: url(../image/features-item3.png);
+	position: absolute;
+	left: -55px;
+	top: -55px;
+}
+.works {
+	height: 950px ;
+	background-color: #fff;
+}
+
+.works p, .team p, .form p {
+	font-size: 18px;
+	color: #062033;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 60px;
+}
+.works-nav {
+	font-size: 14px;
+	font-weight: bold;
+	color: #062033;
+	text-align: center;
+	margin-bottom: 45px;
+}
+.works-nav ul li {
+	padding: 0 20px;
+}
+.team {
+	height: 920px;
+	background-color: #fff;
+}
+.team-name {
+	font-size: 18px;
+	color: #062033;
+}
+.team-prof {
+	font-size: 13px;
+	font-weight: normal;
+	color: #062033;
+}
+.stat {
+	height: 600px;
+
+}
+.stat-num {
+	font-size: 60px;
+	color: #fff;
+}
+.stat-text {
+	font-size: 18px;
+	font-weight: normal;
+	color: #fff;
+}
+.form {
+	height: 620px;
+	background-color: #fff;
+	
+}
+.map {
+	height: 215px;
+	background-image: url(../image/map.png);
+	
+}
+.page-footer {
+	height: 410px;
+	background-color: #1ea78d;
+}
